@@ -1,0 +1,28 @@
+# Ignorar ambiente virtual
+venv/
+
+# Ignorar arquivos Python compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignorar arquivos de dependências
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Ignorar arquivos Docker (normalmente não se ignora o Dockerfile, mas se quiser ignorar, descomente)
+# Dockerfile
+# docker-compose.yml
+
+# Ignorar logs e arquivos temporários
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Ignorar configurações do editor
+.vscode/
+.idea/
+*.iml
